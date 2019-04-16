@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.notebook_ultimate" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Notebook ultimate</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="office@redpenguin.com" href="http://cordova.io">
+        RedPenguin
+    </author>
+    <content src="a_index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-googleplus" source="npm">
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.533137817690-odvsb4q8ilgitb90sm7v1p0l7qvc3298" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="533137817690-qtlt9od45g6l37oj8mts6v6b4feo1he0.apps.googleusercontent.com" />
+    </plugin>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <icon src="res/appicon.ico" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

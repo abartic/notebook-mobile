@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.notebook_ultimate" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CookieMaster">
+        <param name="android-package" value="com.cordova.plugins.cookiemaster.CookieMaster" />
+    </feature>
+    <feature name="FileOpener2">
+        <param name="android-package" value="io.github.pwlin.cordova.plugins.fileopener2.FileOpener2" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="GooglePlus">
+        <param name="android-package" value="nl.xservices.plugins.GooglePlus" />
+        <param name="onload" value="true" />
+    </feature>
+    <access origin="https://accounts.google.com/*" />
+    <name>Notebook ultimate</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="office@redpenguin.com" href="http://cordova.io">
+        RedPenguin
+    </author>
+    <content src="a_index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="res/appicon.ico" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
