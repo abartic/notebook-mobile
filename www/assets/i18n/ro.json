@@ -230,8 +230,8 @@
     "partner.fiscal_reg_number": "Cod fiscal",
     "partner.name_admin": "Nume admin.",
     "partner.name_rep": "Nume reprez.",
-    "partner.iban": "IBAN",
-    "partner.iban_bank": "Banca",
+    "partner.IBAN": "IBAN",
+    "partner.IBAN_bank": "Banca",
     "partner.invoice_report_type": "Raport factura",
     "partner.receivable_report_type": "Raport chitanta",
 
@@ -382,7 +382,7 @@
     "MSG.ENTITY_DELETED": "Entitate stearsa anterior!",
     "MSG.INVALID_FIELDS": "Propietati invalide:",
     "MSG.NEWENTITY_DELETED": "Noua entitate va fi stearsa!",
-    "MSG.CANNOT_UNDO": "O entitate noua/stearsa nu poate fi re-incarcata!"
+    "MSG.CANNOT_UNDO": "O entitate noua/stearsa nu poate fi re-incarcata!",
 
-
+    "MSG.DELETE_ITEM": "Stergi inregistrarea curenta?"
 }
