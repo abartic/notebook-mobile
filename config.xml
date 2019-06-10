@@ -4,14 +4,14 @@
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="office@redpenguin.com" href="http://cordova.io">
+    <author email="contact@redpenguin.ro" href="http://cordova.io">
         RedPenguin
     </author>
     <content src="a_index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-googleplus" source="npm">
-        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.533137817690-odvsb4q8ilgitb90sm7v1p0l7qvc3298" />
-        <variable name="WEB_APPLICATION_CLIENT_ID" value="533137817690-qtlt9od45g6l37oj8mts6v6b4feo1he0.apps.googleusercontent.com" />
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.92555240072-v6sbkdn7hrblcsed94h6tk09dmh35567" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="92555240072-klo5cg496222irk01jr13ikuilar9vpq.apps.googleusercontent.com" />
     </plugin>
     <access origin="*" />
     <allow-intent href="http://*/*" />

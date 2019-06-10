@@ -24,7 +24,7 @@
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="office@redpenguin.com" href="http://cordova.io">
+    <author email="contact@redpenguin.ro" href="http://cordova.io">
         RedPenguin
     </author>
     <content src="a_index.html" />
